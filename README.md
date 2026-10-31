@@ -208,18 +208,14 @@ This project delivers an **end-to-end data engineering and analytics solution** 
 ---
 
 ## 🖼 Dashboard Preview
+![Dashboard Overview](assets/job_analyis_overview.png)
 
-> **[Insert Dashboard Screenshot Here]**
-> *Power BI dashboard — hiring trends, job type distribution, top job fields, and most in-demand skills*
+![Dashboard Overview](assets/job_analysis_page_01.png)
 
-> **[Insert Database Schema Diagram Here]**
-> *Consolidated database tables and relationships*
+![Dashboard Overview](assets/job_analysis_page_02.png)
 
-> **[Insert Unstructured-to-Structured Extraction Screenshot Here]**
-> *Power Query transformation extracting fields from lengthy paragraphs*
+![Dashboard Overview](assets/job_analysis_page_03.png)
 
-> **[Insert Top Skills Visual Here]**
-> *Most in-demand skills visualisation*
 
 ---
 
@@ -284,8 +280,7 @@ job-market-analytics-dashboard/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/job-market-analytics-dashboard.git
-   cd job-market-analytics-dashboard
+   git clone https://github.com/your-username/job_analysis_pipeline_powerbi_26.git
    ```
 
 2. **Prepare the data:**
@@ -293,7 +288,7 @@ job-market-analytics-dashboard/
    - Review `database/schema_reference.md` for the target schema
 
 3. **Open Power BI:**
-   - Open `power_bi/Job_Market_Dashboard.pbix`
+   - Open `power_bi/Job_Analysis.pbix`
    - Refresh data connections
    - Review Power Query transformations in `power_query/m_code_reference.md`
    - Explore the interactive dashboard
