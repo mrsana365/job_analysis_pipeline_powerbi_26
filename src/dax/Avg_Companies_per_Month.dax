@@ -1,0 +1,6 @@
+Avg Companies per Month = 
+VAR TotalMonths = DISTINCTCOUNT(job_postings1[job_posting_date].[Month])
+VAR TotalCompanies = DISTINCTCOUNT(job_postings1[company_name])
+VAR Result = DIVIDE(TotalCompanies, TotalMonths)
+RETURN
+    Result

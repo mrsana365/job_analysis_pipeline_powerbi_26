@@ -1,0 +1,23 @@
+Average Opening = 
+VAR testYear = YEAR(SELECTEDVALUE(job_postings1[job_posting_date].[Month]))
+VAR testMonth = MONTH(SELECTEDVALUE(job_postings1[job_posting_date].[Year]))
+
+VAR firstDay = 
+CALCULATE(
+    MIN(job_postings1[job_posting_date]),
+    YEAR(job_postings1[job_posting_date]) = testYear &&
+    MONTH(job_postings1[job_posting_date]) = testMonth
+)
+
+VAR lastDay = 
+CALCULATE(
+    MAX(job_postings1[job_posting_date]),
+    YEAR(job_postings1[job_posting_date]) = testYear &&
+    MONTH(job_postings1[job_posting_date]) = testMonth
+)
+
+VAR totalDays = DATEDIFF(firstDay, lastDay, DAY) + 1
+VAR totalOpenings = COUNT(job_postings1[job_id])
+
+RETURN
+totalOpenings / totalDays
