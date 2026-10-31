@@ -1,6 +1,5 @@
-# Job Market Analytics & Database Consolidation Solution
-
-> An end-to-end data engineering and Power BI solution that transforms fragmented, multi-source recruitment data into a unified, high-performance analytics database — delivering actionable hiring insights for a recruitment and selection firm.
+# TALENTVISION | Global Data Recruitment & Market Intelligence 
+- #### Enterprise Multi-Source Pipeline & Executive Talent Analytics (800K+ Job Postings)
 
 ---
 
