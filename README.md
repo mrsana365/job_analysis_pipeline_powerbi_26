@@ -258,7 +258,7 @@ job-market-analytics-dashboard/
 
 | Resource | Link |
 |----------|------|
-| 📊 **Power BI Dashboard** | `[Insert link to published Power BI report]` |
+| 📊 **Power BI Dashboard** | [Power BI Dashboard](https://app.powerbi.com/links/yWFT55rg1j?ctid=95cd5fc7-eedf-4dcd-8986-48528f05d39f&pbi_source=linkShare) |
 | 🗄 **Database Schema** | `[Insert link to schema documentation]` |
 | 📁 **Sample Dataset** | `[Insert link to sanitized sample data]` |
 | 📝 **Project Notes (DAX/Power Query)** | `[Insert link to documentation]` |
