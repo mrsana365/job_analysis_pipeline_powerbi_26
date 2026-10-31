@@ -264,7 +264,7 @@ job_analysis_pipeline_powerbi_26/
 | Resource | Link |
 |----------|------|
 | 📊 **Power BI Dashboard** | [Power BI Dashboard](https://app.powerbi.com/links/yWFT55rg1j?ctid=95cd5fc7-eedf-4dcd-8986-48528f05d39f&pbi_source=linkShare) |
-| 📁 ** Dataset** |[Dataset ](data)  |
+| 📁 **Dataset** |[Dataset ](data)  |
 | 📝 **Project Notes (DAX/Power Query)** | [DAX/Power Query](src)  |
 
 ---
