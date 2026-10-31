@@ -222,34 +222,39 @@ This project delivers an **end-to-end data engineering and analytics solution** 
 ## 📁 Repository Structure
 
 ```
-job-market-analytics-dashboard/
+job_analysis_pipeline_powerbi_26/
+├── 📂 assets/
+│   ├── job_analysis_overview.png
+│   ├── job_analysis_page_01.png
+│   ├── job_analysis_page_02.png
+│   └── job_analysis_page_03.png
+│
+├── 📂 dashboard/
+│   └── Job_Analysis.pbix
 │
 ├── 📂 data/
-│   ├── raw/                          # Sample raw source files (sanitized)
-│   └── processed/                    # Cleaned output samples
 │
-├── 📂 database/
-│   └── schema_reference.md           # Database tables and relationships
+├── 📂 src/
+│   ├── 📂 dax/
+│   │   ├── Average_Opening.dax
+│   │   └── Avg_Companies_per_Month.dax
+│   │
+│   ├── 📂 power_query/
+│   │   ├── complte_power_query_code.m
+│   │   ├── job_analysis.m
+│   │   ├── job_analysis_power_query_step_01.png
+│   │   ├── job_analysis_power_query_step_02.png
+│   │   ├── job_tittle.m
+│   │   ├── replace_ttittle.m
+│   │   └── summery.m
+│   │
+│   └── 📂 python/
+│       └── job_analysis.ipynb
 │
-├── 📂 power_bi/
-│   ├── Job_Market_Dashboard.pbix     # Power BI report file
-│   └── dax_measures.md               # Documentation of all DAX measures
-│
-├── 📂 power_query/
-│   └── m_code_reference.md           # M Language transformations reference
-│
-├── 📂 docs/
-│   ├── project_notes.md              # Detailed project notes
-│   └── architecture_diagram.png      # Pipeline architecture image
-│
-├── 📂 screenshots/
-│   ├── dashboard_overview.png
-│   ├── hiring_trends.png
-│   ├── job_type_distribution.png
-│   └── top_skills.png
-│
+├── .gitattributes
 ├── .gitignore
-└── README.md                         # This file
+├── README.md
+└── job_analysis_project.docx
 ```
 
 ---
@@ -259,9 +264,8 @@ job-market-analytics-dashboard/
 | Resource | Link |
 |----------|------|
 | 📊 **Power BI Dashboard** | [Power BI Dashboard](https://app.powerbi.com/links/yWFT55rg1j?ctid=95cd5fc7-eedf-4dcd-8986-48528f05d39f&pbi_source=linkShare) |
-| 🗄 **Database Schema** | `[Insert link to schema documentation]` |
-| 📁 **Sample Dataset** | `[Insert link to sanitized sample data]` |
-| 📝 **Project Notes (DAX/Power Query)** | `[Insert link to documentation]` |
+| 📁 ** Dataset** |[Dataset ](data)  |
+| 📝 **Project Notes (DAX/Power Query)** | [DAX/Power Query](src)  |
 
 ---
 
@@ -321,4 +325,3 @@ This project is for portfolio and educational purposes. Dataset has been sanitiz
 
 ---
 
-*Prepared as a portfolio-ready project overview. Replace bracketed placeholders with actual screenshots and links before publishing.*
